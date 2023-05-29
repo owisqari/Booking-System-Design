@@ -39,6 +39,20 @@
     background-color: #d6293e;
     border-color: #d6293e;
   }
+  .first-sec{
+    background-image: url("../images/body-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+} 
+.last-sec{
+  background-image: url("../images/last-sec-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 64rem;
+
+}
 
   @media only screen and (max-width: 600px) {
   
