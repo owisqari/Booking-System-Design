@@ -1,0 +1,41 @@
+:root {
+    --bs-primary: #5143d9;
+    --bs-danger: #d6293e;
+    --bs-success: #0cbc87;
+  }
+  body {
+    background-color: #232529;
+  }
+  .btn-primary-soft {
+    color: #5143d9;
+    background-color: rgba(81, 67, 217, 0.1);
+  }
+  .btn-primary-soft:active,
+  .btn-primary-soft:hover,
+  .btn-primary-soft:focus {
+    color: #fff;
+    background-color: #5143d9;
+    border-color: #5143d9;
+  }
+  .btn-success-soft {
+    color: #0cbc87;
+    background-color: rgba(12, 188, 135, 0.1);
+  }
+  .btn-success-soft:active,
+  .btn-success-soft:hover,
+  .btn-success-soft:focus {
+    color: #fff;
+    background-color: #0cbc87;
+    border-color: #0cbc87;
+  }
+  .btn-danger-soft {
+    color: #d6293e;
+    background-color: rgba(214, 41, 62, 0.1);
+  }
+  .btn-danger-soft:active,
+  .btn-danger-soft:hover,
+  .btn-danger-soft:focus {
+    color: #fff;
+    background-color: #d6293e;
+    border-color: #d6293e;
+  }
